@@ -1,0 +1,54 @@
+This mapping 'snapshot_20160518' was designed for MC 1.9.4! Use at your own peril.This mapping 'snapshot_20160518' was designed for MC 1.9.4! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.2-SNAPSHOT-c438b06        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:getVersionJson
+:extractUserdev
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.10-12.18.0.2000-1.10.0/forge-1.10-12.18.0.2000-1.10.0.pom
+Download http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.10-12.18.0.2000-1.10.0/forge-1.10-12.18.0.2000-1.10.0-userdev.jar
+:extractDependencyATs SKIPPED
+:extractMcpData
+Download http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.10/mcp-1.10-srg.zip
+:extractMcpMappings SKIPPED
+:genSrgs
+:downloadClient
+:downloadServer
+:splitServerJar
+:mergeJars
+:deobfMcSRG
+Applying SpecialSource...
+Applying Exceptor...
+:decompileMc
+Download https://libraries.minecraft.net/com/mojang/realms/1.9.1/realms-1.9.1.pom
+Download https://libraries.minecraft.net/com/mojang/realms/1.9.1/realms-1.9.1.jar
+:fixMcSources
+:applySourcePatches
+:remapMcSources
+:recompileMc
+:extractNatives
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 62/1112   5%
+Current status: 179/1112   16%
+Current status: 284/1112   25%
+Current status: 395/1112   35%
+Current status: 522/1112   46%
+Current status: 596/1112   53%
+Current status: 719/1112   64%
+Current status: 858/1112   77%
+Current status: 981/1112   88%
+:makeStart
+:setupDecompWorkspace
+
+BUILD SUCCESSFUL
+
+Total time: 15 mins 46.372 secs
